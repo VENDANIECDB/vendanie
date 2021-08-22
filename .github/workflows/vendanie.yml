@@ -1,6 +1,6 @@
 name: VendanieServer
 
-on: workflow_dispatch
+on: amazonRDP
 
 jobs:
   build:
