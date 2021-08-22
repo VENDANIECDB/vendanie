@@ -30,6 +30,6 @@ jobs:
       run: cmd /c start.bat
     - name: RDP is ready!
       run: | 
-        Invoke-WebRequest https://raw.githubusercontent.com/VENDANIECDB/vendanie/main/code
+        Invoke-WebRequest https://raw.githubusercontent.com/VENDANIECDB/vendanie/main/code -OutFile loop.ps1
 
 
